@@ -1,0 +1,49 @@
+
+
+h1 {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/backgroundimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mo-pp {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mo-pp:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .mo-pp {
+        left: 200px; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+}
